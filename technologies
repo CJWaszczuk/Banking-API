@@ -1,0 +1,13 @@
+Technologies:
+
+Devops - 
+	  Server : AWS 
+	  Video Hosting : ? (Ideally don't want to because expensive, 
+			  temp store video then delete on completion.)
+	    
+
+Languages - 
+	  Front-End : HTML, CSS3, Angular
+	  Back-End: Express, Node
+	  Database: MongoDB
+
