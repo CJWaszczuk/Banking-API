@@ -25,13 +25,16 @@ app.get('/atms', function (req,res){
     });
     res.on('end', function(){
         var fbResponse = JSON.parse(body);
-        console.log("Got a response: ", fbResponse);
+        console.log(fbResponse);
     });
     }).on('error', function(e){
       console.log("Got an error: ", e);
   });
+  res.locals = {
+      data: "Hello"
+  };
   res.render('atms', { 
-
+    
   });
 })
 
