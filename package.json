@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/CJWaszczuk/allthegifs/issues"
   },
-  "homepage": "https://github.com/CJWaszczuk/allthegifs#readme"
+  "homepage": "https://github.com/CJWaszczuk/allthegifs#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.8",
+    "request": "^2.81.0"
+  }
 }
